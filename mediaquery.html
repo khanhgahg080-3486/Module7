@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+
+    <style>
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .food{
+            border: 2px solid  black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .food img{
+            width: 100%;
+        }
+
+        /* Smaller Device */
+        @media  screen and (max-width : 576px) {
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .food{
+                background-color: yellow;
+            }
+        }
+        /* Medium Device  */
+        @media  screen and (min-width: 576px) and (max-width : 992px){
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+      
+        <div class="food">
+            <img src="./download.jfif" alt="Food Item">
+            <h3>Food Item 1 - $100</h3>
+            <p>price: $100</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+           <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./download.jfif" alt="Food Item">
+            <h3>Food Item 2 - $200</h3>
+            <p>price: $200</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+           <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./download.jfif" alt="Food Item">
+            <h3>Food Item 3 - $300</h3>
+            <p>price: $300</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+           <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./download.jfif" alt="Food Item">
+            <h3>Food Item 4 - $400</h3>
+            <p>price: $400</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+           <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./download.jfif" alt="Food Item">
+            <h3>Food Item 5 - $500</h3>
+            <p>price: $500</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+           <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./download.jfif" alt="Food Item">
+            <h3>Food Item 6 - $600</h3>
+            <p>price: $600</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+           <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./download.jfif" alt="Food Item">
+            <h3>Food Item 7 - $700</h3>
+            <p>price: $700</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+           <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./download.jfif" alt="Food Item">
+            <h3>Food Item 8 - $800</h3>
+            <p>price: $800</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+           <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./download.jfif" alt="Food Item">
+            <h3>Food Item 9 - $900</h3>
+            <p>price: $900</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent liber
+
+</body>
+</html>
